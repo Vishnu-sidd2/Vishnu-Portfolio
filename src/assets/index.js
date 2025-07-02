@@ -31,7 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import iiitpune from "./iiitpune.png";
 import srichai from "./srichai.png";
-import ytclone from "./ytclone.png"
+import ytclone from "./ytclone.png";
+import pcd from "./pcd.png";
 
 
 export {
@@ -64,5 +65,5 @@ export {
   jobit,
   tripguide,
   iiitpune,
-  srichai,ytclone
+  srichai,ytclone,pcd
 };

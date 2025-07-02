@@ -23,7 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  iiitpune,srichai,ytclone
+  iiitpune,srichai,ytclone,pcd
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -286,11 +286,29 @@ const projects = [
         },
         // You could add other tags if relevant, e.g., "authentication", "crud"
     ],
-    image: crm_dashboard_screenshot, // Placeholder: You'll replace 'crm_dashboard_screenshot' with the actual import for your project's image
+     // Placeholder: You'll replace 'crm_dashboard_screenshot' with the actual import for your project's image
     source_code_link: "https://github.com/Vishnu-sidd2/React--app-",
-    live_site_link: "https://react-crm-app-gamma.vercel.app/", // IMPORTANT: Replace this with the actual link once deployed
+    live_site_link: "https://react-crm-app-gamma.vercel.app/", // IMPORTANT: Replace this with the actual link once ,,deployed
+},{
+    name: "Personalized Content Dashboard",
+    description:
+      "Built a fully responsive and interactive dashboard that delivers personalized content including news (via NewsAPI), movie recommendations, and social media posts. Enabled user preference management (categories, favorites, dark mode) using Redux Toolkit and localStorage Implemented features like debounced search, drag-and-drop reordering, infinite scrolling, and favorites tracking. UI powered by Framer Motion and Tailwind CSS for smooth animations and seamless experience",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "pink-text-gradient",
+      },
+    ],  image: pcd, 
+  source_code_link: "https://github.com/Vishnu-sidd2/Personalized-ContentDashboard"
 }
-
 ];
 
 export { services, technologies, experiences, testimonials, projects };
